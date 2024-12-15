@@ -19,3 +19,10 @@ venv.bak/
 
 .DS_Store
 test.ipynb
+
+
+# Models and outputs
+data/models/*
+!data/models/.gitkeep
+outputs/*
+!outputs/.gitkeep
