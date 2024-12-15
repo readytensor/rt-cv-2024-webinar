@@ -1,4 +1,4 @@
-![Computer Vision Workshop](webinar-hero.webp)
+![Computer Vision Workshop](hero.webp)
 
 # Computer Vision Workshop with Deep Learning
 
@@ -25,7 +25,10 @@ This is a work in progress. The repository will contain:
 
 ```bash
 # Clone repository
-git clone [repo-url]
+git clone https://github.com/readytensor/rt-cv-2024-webinar.git
+
+# Change directory
+cd rt-cv-2024-webinar
 
 # Create virtual environment
 python -m venv venv
@@ -35,4 +38,11 @@ venv\Scripts\activate     # Windows
 
 # Install requirements
 pip install -r requirements.txt
+
+# Register this environment with Jupyter
+python -m ipykernel install --user --name=cv-webinar --display-name="Ready Tensor CV Webinar 2024"
+
+# Start Jupyter notebook
+jupyter notebook
+
 ```
