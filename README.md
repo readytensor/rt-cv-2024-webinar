@@ -45,4 +45,6 @@ python -m ipykernel install --user --name=cv-webinar --display-name="Ready Tenso
 # Start Jupyter notebook
 jupyter notebook
 
+# Make sure to select the kernel "Ready Tensor CV Webinar 2024" in the notebooks to use the environment
+
 ```
