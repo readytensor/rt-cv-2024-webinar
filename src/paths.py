@@ -9,9 +9,9 @@ IMAGES_DIR = DATA_DIR / "images"
 MODELS_DIR = DATA_DIR / "models"
 
 # Image subdirectories
-CLASSIFICATION_IMAGES = IMAGES_DIR / "classification"
-DETECTION_IMAGES = IMAGES_DIR / "detection"
-SEGMENTATION_IMAGES = IMAGES_DIR / "segmentation"
+CLASSIFICATION_IMAGES = IMAGES_DIR / "image_classification"
+DETECTION_IMAGES = IMAGES_DIR / "object_detection"
+SEGMENTATION_IMAGES = IMAGES_DIR / "semantic_segmentation"
 
 # Output directory
 OUTPUTS_DIR = REPO_ROOT / "outputs"
