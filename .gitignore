@@ -20,6 +20,10 @@ venv.bak/
 .DS_Store
 test.ipynb
 
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
 
 # Models and outputs
 data/models/*
