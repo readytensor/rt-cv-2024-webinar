@@ -12,11 +12,17 @@ MODELS_DIR = DATA_DIR / "models"
 CLASSIFICATION_IMAGES = IMAGES_DIR / "image_classification"
 DETECTION_IMAGES = IMAGES_DIR / "object_detection"
 SEGMENTATION_IMAGES = IMAGES_DIR / "semantic_segmentation"
+TRACKING_VIDEOS = IMAGES_DIR / "object_tracking"
 
 # Output directory
 OUTPUTS_DIR = REPO_ROOT / "outputs"
 
 # Create directories if they don't exist
-for dir_path in [CLASSIFICATION_IMAGES, DETECTION_IMAGES, SEGMENTATION_IMAGES, 
-                 MODELS_DIR, OUTPUTS_DIR]:
+for dir_path in [
+    CLASSIFICATION_IMAGES,
+    DETECTION_IMAGES,
+    SEGMENTATION_IMAGES,
+    MODELS_DIR,
+    OUTPUTS_DIR,
+]:
     dir_path.mkdir(parents=True, exist_ok=True)
